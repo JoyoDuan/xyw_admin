@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>items</key>
+    <array>
+      <dict>
+        <key>assets</key>
+        <array>
+          <dict>
+            <key>kind</key>
+            <string>software-package</string>
+            <key>url</key>
+            <!-- 安装包地址,最好是https开头 -->
+            <string>http://oxwopdiux.bkt.clouddn.com/android/xyw-admin.apk</string>
+          </dict>
+          <dict>
+            <key>kind</key>
+            <string>full-size-image</string>
+            <key>needs-shine</key>
+            <true/>
+            <key>url</key>
+            <!-- 你app的logo地址 -->
+            <string>http://oxwopdiux.bkt.clouddn.com/images/logo.png</string>
+          </dict>
+          <dict>
+            <key>kind</key>
+            <string>display-image</string>
+            <key>needs-shine</key>
+            <true/>
+            <key>url</key>
+            <!-- 你app的logo地址 -->
+            <string>http://oxwopdiux.bkt.clouddn.com/images/logo.png</string>
+          </dict>
+        </array>
+        <key>metadata</key>
+        <dict>
+          <key>bundle-identifier</key>
+          <!-- app的id,在ionic2项目config.xml中查看 -->
+          <string>com.joyo.xyw.admin</string>
+          <key>bundle-version</key>
+          <!-- 版本号随意 -->
+          <string>0.3.6</string>
+          <key>kind</key>
+          <string>software</string>
+          <key>title</key>
+          <!-- app的name,在ionic2项目config.xml中查看 -->
+          <string>行游网Admin</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
